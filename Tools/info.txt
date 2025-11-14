@@ -1,0 +1,31 @@
+Prompt
+=======
+
+conda create --name Vision_CPU python=3.10.18
+conda activate Vision_CPU
+conda deactivate Vision_CPU 
+
+$ conda --version
+conda 25.5.1
+
+VS Code
+========
+
+- use cntrl + shft + p for changing interpreter
+
+Git Setup
+==========
+
+git init                            = Initialize git
+
+git remote add origin https://github.com/KimieCrafter/Machine-Vision-IIUM.git
+git branch -M main
+git push -u origin main
+
+git remote -v                       = for status
+
+Setup:
+
+conda install -c conda-forge opencv
+conda install pytorch torchvision torchaudio pytorch-cuda=12.6 -c pytorch -c nvidia
+conda install -c conda-forge numpy matplotlib pandas scikit-learn pillow
